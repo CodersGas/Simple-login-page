@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+body{
+    padding-top: 50px;
+    background: lightgray;
+}
+
+form{
+    margin: 0 auto;
+    width: 400px;
+    height: 100%;
+    border: 1px solid #b8b7bd;
+    text-align: center;
+    background: white;
+    border-radius: 1px;
+    font-family:  AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+form h2{
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+fieldset{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.account-info{
+    text-align: left;
+    padding: 20px 20px 0 20px;
+}
+
+.account-info label{
+    display:block;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: initial;
+    font-size: 15px;
+}
+
+.account-info input{
+    width: 100%;
+    background: #fff;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    padding-left: 5px;
+    margin-top: 8px;
+}
+
+.account-info span{
+    font-size: 10px;
+    color: black;
+}
+
+.account-action{
+    text-align: center;
+    padding: 0 20px 0 20px;
+    font-size: 12px;
+    color: black;
+}
+
+.account-action button{
+    width: 250px;
+    height: 50px;
+    background: #6b77db;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.account-action p{
+    margin: 50px 0;
+    font-style: italic;
+}
